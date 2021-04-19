@@ -2,7 +2,7 @@
 kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: dev-user-access
+  name: {{ .Values.RoleBinding.namespace }}-{{ .Values.RoleBinding.objectId }}-access
   namespace: {{ .Values.RoleBinding.namespace }}
 roleRef:
   apiGroup: rbac.authorization.k8s.io

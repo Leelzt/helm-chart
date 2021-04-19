@@ -3,12 +3,22 @@ entries:
   bindingedit:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-19T08:28:32.211345-04:00"
+    created: "2021-04-19T10:14:10.2635994-04:00"
     description: A Helm chart for Kubernetes
-    digest: 3a9364c015882aa310bcdde5f48a36a5bcd05e71d80f04a7444d935c1ae82c67
+    digest: 83fd1566077a9246ab2dbdf8f9b8bdc397ad155333bac401af6c193372cbf14e
+    name: bindingedit
+    type: application
+    urls:
+    - https://leelzt.github.io/helm-chart/bindingedit-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-19T10:14:10.2635994-04:00"
+    description: A Helm chart for Kubernetes
+    digest: f98a2897565b33d6e17f38f55098c11d8d546c5ddbe65b9bfbead28d7019e1d7
     name: bindingedit
     type: application
     urls:
     - https://leelzt.github.io/helm-chart/bindingedit-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-19T08:28:32.211345-04:00"
+generated: "2021-04-19T10:14:10.262633-04:00"
