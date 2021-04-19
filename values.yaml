@@ -1,4 +1,4 @@
-serviceAccount:
-  # Specifies whether a service account should be created
+Namespaces:
+  # Specifies whether a namespaces should be created
   create: true
-  name: "example-sa"
+  name: "test"
