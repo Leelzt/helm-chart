@@ -1,4 +1,6 @@
-Namespaces:
-  # Specifies whether a namespaces should be created
+RoleBinding:
+  # Specifies whether a RoleBinding should be created
   create: true
-  name: "test"
+  namespace: 
+  role: 
+  objectId: 
