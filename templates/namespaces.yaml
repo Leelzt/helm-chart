@@ -1,6 +1,6 @@
 {{- if .Values.Namespaces.create -}}
 apiVersion: v1
-kind: Namespaces
+kind: Namespace
 metadata:
   name: {{ .Values.Namespaces.name }}
 {{- end }}
